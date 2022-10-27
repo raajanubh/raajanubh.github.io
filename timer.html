@@ -8,6 +8,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <style>
+body {
+	background:lavenderblush;
+}
 .time_display {
 	border-radius: 10px;
 	text-align:center;
@@ -52,11 +55,10 @@
 <i id="stp" class="fa fa-stop-circle-o control_btn"></i>
 </div>
 <div id="time_container">
-<input type="number" value="00" class="time_display" id="hr">
+<input type="number" value="00" class="time_display" id="hr" min="0" max="23">
 <input type="number" value="00" class="time_display" id="min" min="0" max="59">
 <input type="number" value="00" class="time_display" id="sec" min="0" max="59">
 </div>
-
 <script>
 /*var elements = "";
 for(let i= 0; i < 24; i++){
