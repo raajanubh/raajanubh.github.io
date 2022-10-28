@@ -9,7 +9,7 @@
 </head>
 <style>
 body {
-	background: url("timer_back.jpg");
+	background: url("timer_background.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
 }
@@ -62,11 +62,6 @@ body {
 <input type="number" value="00" class="time_display" id="sec" min="0" max="59">
 </div>
 <script>
-/*var elements = "";
-for(let i= 0; i < 24; i++){
-    elements += "<option value='"+ i + "'>" + i + "</option>";
-}
-$("#hr").html(elements);*/
 function sleep(ms) {
       return new Promise(resolve => setTimeout(resolve, ms));
 }
