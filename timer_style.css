@@ -1,0 +1,40 @@
+body {
+	background: url("timer_background.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.time_display {
+	border-radius: 10px;
+	text-align:center;
+	font-size:10em;
+	border:0px;
+	background: AliceBlue;
+	width: 18%;
+	height:100%;
+}
+#time_container {
+	position:absolute;
+	top:32vh;
+	height:30vh;
+	text-align:center;
+}
+#btns_ctrl {
+	position:relative;
+	top: 15vh;
+	text-align:center;
+}
+.control_btn {
+	font-size: 5em;
+	color:blue;
+}
+.control_btn:hover {
+	cursor:pointer;
+	color:red;
+}
+#min {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.hide_btn {
+	display:none;
+}
