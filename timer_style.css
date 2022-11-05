@@ -1,7 +1,16 @@
 body {
-	background: url("timer_background.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
+}
+#heading {
+	font-size:3em;
+	text-align:center;
+}
+
+.popover {
+	text-align:center;
+	font-size: 1.2em;
+	background: #ccffef;
 }
 .time_display {
 	border-radius: 10px;
@@ -11,25 +20,25 @@ body {
 	background: AliceBlue;
 	width: 18%;
 	height:100%;
+	transition: background 0.1s;
 }
 #time_container {
 	position:absolute;
-	top:32vh;
-	height:30vh;
+	top:27vh;
+	height:auto;
 	text-align:center;
 }
 #btns_ctrl {
-	position:relative;
-	top: 15vh;
 	text-align:center;
 }
 .control_btn {
 	font-size: 5em;
 	color:blue;
+	transition: display 1s;
 }
 .control_btn:hover {
 	cursor:pointer;
-	color:red;
+	color:navy;
 }
 #min {
 	margin-left: 1rem;
